@@ -1,0 +1,10 @@
+2022-05-28 23:25:02,018 DEBUG: com.xilinx.installer.api.e:? - Log file location: C:\Users\20101\.Xilinx\xinstall\xinstall_1653773059365.log
+2022-05-28 23:25:02,570 DEBUG: com.xilinx.installer.api.e:? - Memory usage -- Used memory: 3958 MB. Total memory: 7103 MB
+Recent cpu usage for system: 0%
+2022-05-28 23:25:02,780 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:Xilinx Information Center key:XiC_MODULE
+2022-05-28 23:25:02,785 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:Xilinx Information Center key:XiC_MODULE
+2022-05-28 23:25:02,795 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:Xilinx Information Center key:XiC_MODULE
+2022-05-28 23:25:02,797 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:Xilinx Information Center key:XiC_MODULE
+2022-05-28 23:25:02,799 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:Xilinx Information Center key:XiC_MODULE
+2022-05-28 23:25:03,047 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.summary.UninstallerSummaryPanel, refKey: UninstallSummaryPanel
+2022-05-28 23:25:03,123 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.progress.UninstallProgressPanel, refKey: UninstallProgressPanel

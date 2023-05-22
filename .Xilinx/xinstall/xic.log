@@ -1,0 +1,2075 @@
+2022-04-05 04:35:44,730 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-04-05 04:35:45,089 DEBUG:?:? - Starting to listen
+2022-04-05 04:35:45,734 DEBUG:?:? - Warning, could not find load notification history file: C:\Users\20101\.Xilinx\registry\notifications.xml this can be first time xilinx SW installation.
+2022-04-05 04:35:52,511 DEBUG:?:? - Could not auto detect proxy settings
+2022-04-05 04:35:52,514 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-04-05 04:35:52,526 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-05 04:35:52,526 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1649126152512\installClientInfo.dat
+2022-04-05 04:35:52,527 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1649126152512\installClientInfo.dat,  deleting and starting download from scratch.
+2022-04-05 04:35:52,544 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-05 04:35:53,737 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1692 bytes, elapsedTime: 0:0:0:0
+2022-04-05 04:35:53,738 INFO :?:? - Internet connection validated, can connect to internet.
+2022-04-05 04:35:53,739 DEBUG:?:? - Loading install client info from: C:\Users\20101\AppData\Local\Temp\1649126152512\installClientInfo.dat
+2022-04-05 04:35:53,856 DEBUG:?:? - Fetching notifications..
+2022-04-05 04:35:53,905 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-04-05 04:35:53,906 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-04-05 04:35:54,300 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-05 04:35:54,301 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-05 04:35:54,975 DEBUG:?:? - Warning, coudl not load notification histroty file: C:\Users\20101\.Xilinx\registry\notifications.xml
+2022-04-05 04:35:54,979 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-04-05 04:35:55,216 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-05 04:35:55,217 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-05 04:35:55,269 DEBUG:?:? - InterruptedException executing the command: [cmd, /c, net use E:]
+java.lang.InterruptedException
+	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)
+	at com.xilinx.installer.utils.b.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.FileUtilities.c(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord.setOrigImagePath(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord$JaxbAccessorM_getOrigImagePath_setOrigImagePath_java_lang_String.set(MethodAccessor_Ref.java:45)
+	at com.sun.xml.internal.bind.v2.runtime.reflect.TransducedAccessor$CompositeTransducedAccessorImpl.parse(TransducedAccessor.java:230)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:50)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.text(UnmarshallingContext.java:572)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.processText(SAXConnector.java:198)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.endElement(SAXConnector.java:161)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:243)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:214)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:157)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:162)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:171)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:189)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at p.f.f(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-04-05 04:35:55,275 ERROR:?:? - There was an error executing: [cmd, /c, net use E:]
+2022-04-05 04:35:55,350 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-05 04:35:55,350 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-05 04:36:15,872 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-05 04:36:15,872 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-05 06:09:55,699 DEBUG:?:? - Fetching notifications..
+2022-04-05 06:09:56,764 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-04-05 06:09:56,842 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-04-05 13:19:14,886 DEBUG:?:? - Fetching notifications..
+2022-04-05 13:19:15,974 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-04-05 13:19:16,034 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-04-07 06:53:58,913 DEBUG:?:? - Fetching notifications..
+2022-04-07 06:54:00,033 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-04-07 06:54:00,165 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-04-07 09:06:41,987 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-04-07 09:06:42,343 DEBUG:?:? - Starting to listen
+2022-04-07 09:06:42,472 DEBUG:?:? - Could not auto detect proxy settings
+2022-04-07 09:06:42,474 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-04-07 09:06:42,481 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-07 09:06:42,481 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1649315202472\installClientInfo.dat
+2022-04-07 09:06:42,481 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1649315202472\installClientInfo.dat,  deleting and starting download from scratch.
+2022-04-07 09:06:42,492 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-07 09:06:42,501 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-04-07 09:06:42,503 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-07 09:06:42,503 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2022-04-07 09:06:42,505 DEBUG:?:? - Reset proxy to direct connect
+2022-04-07 09:06:42,507 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1649315202505\installClientInfo.dat
+2022-04-07 09:06:42,508 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1649315202505\installClientInfo.dat,  deleting and starting download from scratch.
+2022-04-07 09:06:42,509 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-07 09:06:42,510 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-04-07 09:06:42,511 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-07 09:06:43,577 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-07 09:06:43,578 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-07 09:06:44,111 DEBUG:?:? - Fetching notifications..
+2022-04-07 09:06:44,123 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-04-07 09:06:44,124 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-04-07 09:06:44,284 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-07 09:06:44,284 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-07 09:06:44,469 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-07 09:06:44,470 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-07 09:06:44,646 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-07 09:06:44,646 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-07 09:06:45,011 DEBUG:?:? - Fetching notifications..
+2022-04-07 10:06:45,033 DEBUG:?:? - Fetching notifications..
+2022-04-07 11:15:51,508 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-04-07 11:15:51,937 DEBUG:?:? - Starting to listen
+2022-04-07 11:15:52,096 DEBUG:?:? - Could not auto detect proxy settings
+2022-04-07 11:15:52,098 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-04-07 11:15:52,107 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-07 11:15:52,107 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1649322952096\installClientInfo.dat
+2022-04-07 11:15:52,108 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1649322952096\installClientInfo.dat,  deleting and starting download from scratch.
+2022-04-07 11:15:52,119 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-07 11:15:52,130 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-04-07 11:15:52,132 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-07 11:15:52,132 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2022-04-07 11:15:52,134 DEBUG:?:? - Reset proxy to direct connect
+2022-04-07 11:15:52,136 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1649322952134\installClientInfo.dat
+2022-04-07 11:15:52,137 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1649322952134\installClientInfo.dat,  deleting and starting download from scratch.
+2022-04-07 11:15:52,139 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-07 11:15:52,140 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-04-07 11:15:52,141 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-07 11:15:53,212 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-07 11:15:53,213 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-07 11:15:53,912 DEBUG:?:? - Fetching notifications..
+2022-04-07 11:15:53,927 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-04-07 11:15:53,927 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-04-07 11:15:54,101 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-07 11:15:54,102 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-07 11:15:54,287 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-07 11:15:54,287 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-07 11:15:54,486 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-07 11:15:54,486 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-07 11:15:54,838 DEBUG:?:? - Fetching notifications..
+2022-04-07 22:59:07,942 DEBUG:?:? - Fetching notifications..
+2022-04-08 00:11:06,706 DEBUG:?:? - Fetching notifications..
+2022-04-08 16:40:56,890 DEBUG:?:? - Fetching notifications..
+2022-04-08 17:40:56,985 DEBUG:?:? - Fetching notifications..
+2022-04-09 01:04:43,009 DEBUG:?:? - Fetching notifications..
+2022-04-09 12:20:09,740 DEBUG:?:? - Fetching notifications..
+2022-04-09 13:20:09,766 DEBUG:?:? - Fetching notifications..
+2022-04-09 14:23:21,896 DEBUG:?:? - Fetching notifications..
+2022-04-09 15:23:21,948 DEBUG:?:? - Fetching notifications..
+2022-04-09 16:23:21,983 DEBUG:?:? - Fetching notifications..
+2022-04-09 20:30:42,487 DEBUG:?:? - Fetching notifications..
+2022-04-09 22:14:36,716 DEBUG:?:? - Fetching notifications..
+2022-04-09 23:19:16,847 DEBUG:?:? - Fetching notifications..
+2022-04-10 00:19:16,968 DEBUG:?:? - Fetching notifications..
+2022-04-10 03:09:03,087 DEBUG:?:? - Fetching notifications..
+2022-04-10 04:09:03,227 DEBUG:?:? - Fetching notifications..
+2022-04-10 05:09:03,323 DEBUG:?:? - Fetching notifications..
+2022-04-10 12:22:54,063 DEBUG:?:? - Fetching notifications..
+2022-04-10 13:22:54,204 DEBUG:?:? - Fetching notifications..
+2022-04-10 23:47:13,749 DEBUG:?:? - Fetching notifications..
+2022-04-11 02:43:18,507 DEBUG:?:? - Fetching notifications..
+2022-04-11 23:05:40,817 DEBUG:?:? - Fetching notifications..
+2022-04-12 00:48:39,285 DEBUG:?:? - Fetching notifications..
+2022-04-12 01:48:39,483 DEBUG:?:? - Fetching notifications..
+2022-04-12 05:38:58,103 DEBUG:?:? - Fetching notifications..
+2022-04-12 10:00:10,538 DEBUG:?:? - Fetching notifications..
+2022-04-12 11:07:26,581 DEBUG:?:? - Fetching notifications..
+2022-04-12 23:37:12,718 DEBUG:?:? - Fetching notifications..
+2022-04-13 01:39:14,528 DEBUG:?:? - Fetching notifications..
+2022-04-13 09:07:49,779 DEBUG:?:? - Fetching notifications..
+2022-04-13 10:07:49,970 DEBUG:?:? - Fetching notifications..
+2022-04-14 03:57:35,513 DEBUG:?:? - Fetching notifications..
+2022-04-14 05:34:14,092 DEBUG:?:? - Fetching notifications..
+2022-04-15 02:52:19,368 DEBUG:?:? - Fetching notifications..
+2022-04-15 03:56:56,256 DEBUG:?:? - Fetching notifications..
+2022-04-15 05:01:24,608 DEBUG:?:? - Fetching notifications..
+2022-04-15 15:06:24,616 DEBUG:?:? - Fetching notifications..
+2022-04-15 16:54:25,629 DEBUG:?:? - Fetching notifications..
+2022-04-15 17:54:25,786 DEBUG:?:? - Fetching notifications..
+2022-04-15 18:58:18,664 DEBUG:?:? - Fetching notifications..
+2022-04-16 00:04:48,361 DEBUG:?:? - Fetching notifications..
+2022-04-16 02:03:08,428 DEBUG:?:? - Fetching notifications..
+2022-04-16 07:08:25,045 DEBUG:?:? - Fetching notifications..
+2022-04-16 08:08:25,203 DEBUG:?:? - Fetching notifications..
+2022-04-16 09:08:25,288 DEBUG:?:? - Fetching notifications..
+2022-04-16 12:05:32,586 DEBUG:?:? - Fetching notifications..
+2022-04-16 13:05:51,117 DEBUG:?:? - Fetching notifications..
+2022-04-16 14:05:51,178 DEBUG:?:? - Fetching notifications..
+2022-04-16 18:38:26,115 DEBUG:?:? - Fetching notifications..
+2022-04-16 19:38:26,150 DEBUG:?:? - Fetching notifications..
+2022-04-16 20:57:54,292 DEBUG:?:? - Fetching notifications..
+2022-04-16 22:02:15,983 DEBUG:?:? - Fetching notifications..
+2022-04-16 23:02:16,040 DEBUG:?:? - Fetching notifications..
+2022-04-17 00:44:46,844 DEBUG:?:? - Fetching notifications..
+2022-04-17 16:40:46,414 DEBUG:?:? - Fetching notifications..
+2022-04-17 18:28:14,029 DEBUG:?:? - Fetching notifications..
+2022-04-17 22:55:40,295 DEBUG:?:? - Fetching notifications..
+2022-04-18 00:05:17,340 DEBUG:?:? - Fetching notifications..
+2022-04-18 01:22:29,434 DEBUG:?:? - Fetching notifications..
+2022-04-18 02:23:49,885 DEBUG:?:? - Fetching notifications..
+2022-04-18 07:17:19,557 DEBUG:?:? - Fetching notifications..
+2022-04-18 23:03:43,323 DEBUG:?:? - Fetching notifications..
+2022-04-19 00:03:43,484 DEBUG:?:? - Fetching notifications..
+2022-04-19 01:03:43,686 DEBUG:?:? - Fetching notifications..
+2022-04-19 02:08:33,734 DEBUG:?:? - Fetching notifications..
+2022-04-19 19:45:59,069 DEBUG:?:? - Fetching notifications..
+2022-04-19 20:45:59,179 DEBUG:?:? - Fetching notifications..
+2022-04-19 21:45:59,265 DEBUG:?:? - Fetching notifications..
+2022-04-19 22:45:59,297 DEBUG:?:? - Fetching notifications..
+2022-04-19 23:45:59,320 DEBUG:?:? - Fetching notifications..
+2022-04-20 00:45:59,387 DEBUG:?:? - Fetching notifications..
+2022-04-20 20:06:46,442 DEBUG:?:? - Fetching notifications..
+2022-04-20 21:36:08,328 DEBUG:?:? - Fetching notifications..
+2022-04-20 22:39:15,996 DEBUG:?:? - Fetching notifications..
+2022-04-21 01:19:50,623 DEBUG:?:? - Fetching notifications..
+2022-04-21 02:35:42,255 DEBUG:?:? - Fetching notifications..
+2022-04-21 03:35:42,301 DEBUG:?:? - Fetching notifications..
+2022-04-21 04:35:42,354 DEBUG:?:? - Fetching notifications..
+2022-04-21 05:35:42,367 DEBUG:?:? - Fetching notifications..
+2022-04-21 06:35:42,375 DEBUG:?:? - Fetching notifications..
+2022-04-21 23:19:04,384 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-04-21 23:19:04,804 DEBUG:?:? - Starting to listen
+2022-04-21 23:19:05,078 DEBUG:?:? - Could not auto detect proxy settings
+2022-04-21 23:19:05,081 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-04-21 23:19:05,089 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-21 23:19:05,089 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1650575945080\installClientInfo.dat
+2022-04-21 23:19:05,090 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1650575945080\installClientInfo.dat,  deleting and starting download from scratch.
+2022-04-21 23:19:05,102 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-21 23:19:05,114 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-04-21 23:19:05,116 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-21 23:19:05,117 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2022-04-21 23:19:05,118 DEBUG:?:? - Reset proxy to direct connect
+2022-04-21 23:19:05,121 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1650575945119\installClientInfo.dat
+2022-04-21 23:19:05,121 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1650575945119\installClientInfo.dat,  deleting and starting download from scratch.
+2022-04-21 23:19:05,123 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-21 23:19:05,124 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-04-21 23:19:05,125 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-21 23:19:06,197 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-21 23:19:06,200 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-21 23:19:08,093 DEBUG:?:? - Fetching notifications..
+2022-04-21 23:19:08,113 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-04-21 23:19:08,114 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-04-21 23:19:08,549 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-21 23:19:08,551 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-21 23:19:08,861 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-21 23:19:08,862 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-21 23:19:09,272 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-21 23:19:09,273 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-21 23:19:09,889 DEBUG:?:? - Fetching notifications..
+2022-04-22 00:19:09,907 DEBUG:?:? - Fetching notifications..
+2022-04-22 01:19:09,985 DEBUG:?:? - Fetching notifications..
+2022-04-23 04:39:06,014 DEBUG:?:? - Fetching notifications..
+2022-04-23 13:04:03,366 DEBUG:?:? - Fetching notifications..
+2022-04-23 14:04:03,409 DEBUG:?:? - Fetching notifications..
+2022-04-23 19:18:57,619 DEBUG:?:? - Fetching notifications..
+2022-04-23 20:21:09,886 DEBUG:?:? - Fetching notifications..
+2022-04-24 00:54:58,932 DEBUG:?:? - Fetching notifications..
+2022-04-24 02:08:18,008 DEBUG:?:? - Fetching notifications..
+2022-04-25 03:35:00,892 DEBUG:?:? - Fetching notifications..
+2022-04-25 04:40:31,394 DEBUG:?:? - Fetching notifications..
+2022-04-25 15:48:40,387 DEBUG:?:? - Fetching notifications..
+2022-04-25 21:05:55,256 DEBUG:?:? - Fetching notifications..
+2022-04-26 01:36:23,737 DEBUG:?:? - Fetching notifications..
+2022-04-26 14:28:15,991 DEBUG:?:? - Fetching notifications..
+2022-04-26 16:44:24,759 DEBUG:?:? - Fetching notifications..
+2022-04-26 17:53:49,648 DEBUG:?:? - Fetching notifications..
+2022-04-26 18:59:49,171 DEBUG:?:? - Fetching notifications..
+2022-04-26 21:24:56,785 DEBUG:?:? - Fetching notifications..
+2022-04-26 23:46:23,685 DEBUG:?:? - Fetching notifications..
+2022-04-27 02:04:56,876 DEBUG:?:? - Fetching notifications..
+2022-04-27 23:15:40,276 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-04-27 23:15:40,777 DEBUG:?:? - Starting to listen
+2022-04-27 23:15:41,032 DEBUG:?:? - Could not auto detect proxy settings
+2022-04-27 23:15:41,036 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-04-27 23:15:41,046 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-27 23:15:41,047 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1651094141034\installClientInfo.dat
+2022-04-27 23:15:41,047 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1651094141034\installClientInfo.dat,  deleting and starting download from scratch.
+2022-04-27 23:15:41,062 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-27 23:15:41,074 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-04-27 23:15:41,076 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-27 23:15:41,076 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2022-04-27 23:15:41,078 DEBUG:?:? - Reset proxy to direct connect
+2022-04-27 23:15:41,081 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1651094141078\installClientInfo.dat
+2022-04-27 23:15:41,081 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1651094141078\installClientInfo.dat,  deleting and starting download from scratch.
+2022-04-27 23:15:41,083 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-27 23:15:41,084 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-04-27 23:15:41,085 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-04-27 23:15:42,159 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-27 23:15:42,160 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-27 23:15:43,039 DEBUG:?:? - Fetching notifications..
+2022-04-27 23:15:43,073 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-04-27 23:15:43,074 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-04-27 23:15:43,320 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-27 23:15:43,321 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-27 23:15:43,546 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-27 23:15:43,547 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-27 23:15:43,758 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-04-27 23:15:43,758 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-04-27 23:15:44,303 DEBUG:?:? - Fetching notifications..
+2022-04-28 15:48:51,219 DEBUG:?:? - Fetching notifications..
+2022-04-28 19:09:56,018 DEBUG:?:? - Fetching notifications..
+2022-04-28 22:21:47,138 DEBUG:?:? - Fetching notifications..
+2022-04-28 23:22:36,978 DEBUG:?:? - Fetching notifications..
+2022-04-29 22:26:06,848 DEBUG:?:? - Fetching notifications..
+2022-04-30 00:56:40,945 DEBUG:?:? - Fetching notifications..
+2022-04-30 02:14:17,176 DEBUG:?:? - Fetching notifications..
+2022-04-30 12:02:22,814 DEBUG:?:? - Fetching notifications..
+2022-04-30 13:02:22,875 DEBUG:?:? - Fetching notifications..
+2022-05-01 03:21:37,180 DEBUG:?:? - Fetching notifications..
+2022-05-03 01:32:17,739 DEBUG:?:? - Fetching notifications..
+2022-05-03 06:11:13,771 DEBUG:?:? - Fetching notifications..
+2022-05-04 14:54:05,204 DEBUG:?:? - Fetching notifications..
+2022-05-04 15:54:05,316 DEBUG:?:? - Fetching notifications..
+2022-05-04 16:54:05,416 DEBUG:?:? - Fetching notifications..
+2022-05-04 20:24:05,994 DEBUG:?:? - Fetching notifications..
+2022-05-06 21:04:33,280 DEBUG:?:? - Fetching notifications..
+2022-05-07 03:53:15,364 DEBUG:?:? - Fetching notifications..
+2022-05-07 05:06:17,470 DEBUG:?:? - Fetching notifications..
+2022-05-07 16:51:28,128 DEBUG:?:? - Fetching notifications..
+2022-05-07 17:51:28,216 DEBUG:?:? - Fetching notifications..
+2022-05-07 19:04:03,756 DEBUG:?:? - Fetching notifications..
+2022-05-07 22:16:58,783 DEBUG:?:? - Fetching notifications..
+2022-05-07 23:16:58,868 DEBUG:?:? - Fetching notifications..
+2022-05-08 00:16:58,928 DEBUG:?:? - Fetching notifications..
+2022-05-08 01:32:02,074 DEBUG:?:? - Fetching notifications..
+2022-05-08 11:01:01,745 DEBUG:?:? - Fetching notifications..
+2022-05-09 22:36:56,830 DEBUG:?:? - Fetching notifications..
+2022-05-09 23:36:56,955 DEBUG:?:? - Fetching notifications..
+2022-05-10 12:12:23,131 DEBUG:?:? - Fetching notifications..
+2022-05-10 13:12:23,240 DEBUG:?:? - Fetching notifications..
+2022-05-10 22:16:39,037 DEBUG:?:? - Fetching notifications..
+2022-05-10 23:41:02,289 DEBUG:?:? - Fetching notifications..
+2022-05-11 00:41:02,501 DEBUG:?:? - Fetching notifications..
+2022-05-11 16:32:15,190 DEBUG:?:? - Fetching notifications..
+2022-05-11 22:11:46,021 DEBUG:?:? - Fetching notifications..
+2022-05-11 23:11:46,187 DEBUG:?:? - Fetching notifications..
+2022-05-12 03:21:06,677 DEBUG:?:? - Fetching notifications..
+2022-05-12 04:21:06,933 DEBUG:?:? - Fetching notifications..
+2022-05-12 06:18:19,783 DEBUG:?:? - Fetching notifications..
+2022-05-12 07:18:19,967 DEBUG:?:? - Fetching notifications..
+2022-05-13 02:33:15,495 DEBUG:?:? - Fetching notifications..
+2022-05-13 03:33:15,603 DEBUG:?:? - Fetching notifications..
+2022-05-13 04:33:15,665 DEBUG:?:? - Fetching notifications..
+2022-05-14 15:51:39,411 DEBUG:?:? - Fetching notifications..
+2022-05-14 22:03:21,553 DEBUG:?:? - Fetching notifications..
+2022-05-14 23:03:21,752 DEBUG:?:? - Fetching notifications..
+2022-05-15 00:03:21,827 DEBUG:?:? - Fetching notifications..
+2022-05-15 02:08:10,330 DEBUG:?:? - Fetching notifications..
+2022-05-15 13:30:19,015 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-05-15 13:30:19,510 DEBUG:?:? - Starting to listen
+2022-05-15 13:30:19,782 DEBUG:?:? - Could not auto detect proxy settings
+2022-05-15 13:30:19,785 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-05-15 13:30:19,796 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-15 13:30:19,796 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1652614219783\installClientInfo.dat
+2022-05-15 13:30:19,797 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1652614219783\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-15 13:30:19,811 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-15 13:30:19,822 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-15 13:30:19,824 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-15 13:30:19,824 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2022-05-15 13:30:19,826 DEBUG:?:? - Reset proxy to direct connect
+2022-05-15 13:30:19,828 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1652614219827\installClientInfo.dat
+2022-05-15 13:30:19,829 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1652614219827\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-15 13:30:19,830 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-15 13:30:19,832 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-15 13:30:19,832 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-15 13:30:20,913 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-15 13:30:20,914 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-15 13:30:21,585 DEBUG:?:? - Fetching notifications..
+2022-05-15 13:30:21,598 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-05-15 13:30:21,599 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-05-15 13:30:21,764 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-15 13:30:21,764 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-15 13:30:21,951 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-15 13:30:21,951 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-15 13:30:22,138 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-15 13:30:22,138 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-15 13:30:22,573 DEBUG:?:? - Fetching notifications..
+2022-05-15 14:30:22,625 DEBUG:?:? - Fetching notifications..
+2022-05-15 16:29:09,363 DEBUG:?:? - Fetching notifications..
+2022-05-15 23:16:45,458 DEBUG:?:? - Fetching notifications..
+2022-05-16 23:57:25,348 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-05-16 23:57:27,976 DEBUG:?:? - Could not talk to the other instance, will resume normal operation.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.xic.XIC.a(Unknown Source)
+	at i.b.e(Unknown Source)
+	at i.b.<init>(Unknown Source)
+	at com.xilinx.installer.gui.E.<init>(Unknown Source)
+	at com.xilinx.xic.XIC.<init>(Unknown Source)
+	at com.xilinx.xic.XIC.l(Unknown Source)
+	at com.xilinx.xic.XIC.main(Unknown Source)
+2022-05-16 23:57:27,981 DEBUG:?:? - Starting to listen
+2022-05-16 23:57:28,257 DEBUG:?:? - Could not auto detect proxy settings
+2022-05-16 23:57:28,263 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-05-16 23:57:28,273 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-16 23:57:28,274 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1652738248260\installClientInfo.dat
+2022-05-16 23:57:28,274 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1652738248260\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-16 23:57:28,283 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-16 23:57:28,291 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-16 23:57:28,292 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-16 23:57:28,293 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2022-05-16 23:57:28,294 DEBUG:?:? - Reset proxy to direct connect
+2022-05-16 23:57:28,296 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1652738248295\installClientInfo.dat
+2022-05-16 23:57:28,297 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1652738248295\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-16 23:57:28,298 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-16 23:57:28,299 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-16 23:57:28,300 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-16 23:57:29,380 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-16 23:57:29,381 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-16 23:57:30,220 DEBUG:?:? - Fetching notifications..
+2022-05-16 23:57:30,246 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-05-16 23:57:30,247 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-05-16 23:57:30,486 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-16 23:57:30,487 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-16 23:57:30,928 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-16 23:57:30,928 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-16 23:57:31,389 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-16 23:57:31,389 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-16 23:57:31,927 DEBUG:?:? - Fetching notifications..
+2022-05-17 09:53:30,607 DEBUG:?:? - Fetching notifications..
+2022-05-17 11:27:17,061 DEBUG:?:? - Fetching notifications..
+2022-05-17 12:36:41,935 DEBUG:?:? - Fetching notifications..
+2022-05-17 19:42:48,314 DEBUG:?:? - Fetching notifications..
+2022-05-18 02:56:21,814 DEBUG:?:? - Fetching notifications..
+2022-05-18 05:16:09,141 DEBUG:?:? - Fetching notifications..
+2022-05-18 07:38:20,937 DEBUG:?:? - Fetching notifications..
+2022-05-18 09:32:44,838 DEBUG:?:? - Fetching notifications..
+2022-05-18 10:32:44,919 DEBUG:?:? - Fetching notifications..
+2022-05-18 16:56:39,977 DEBUG:?:? - Fetching notifications..
+2022-05-18 17:57:20,026 DEBUG:?:? - Fetching notifications..
+2022-05-18 19:20:27,259 DEBUG:?:? - Fetching notifications..
+2022-05-18 21:18:42,890 DEBUG:?:? - Fetching notifications..
+2022-05-18 22:18:43,044 DEBUG:?:? - Fetching notifications..
+2022-05-18 23:18:43,087 DEBUG:?:? - Fetching notifications..
+2022-05-19 00:23:09,788 DEBUG:?:? - Fetching notifications..
+2022-05-19 01:23:09,853 DEBUG:?:? - Fetching notifications..
+2022-05-19 02:23:09,871 DEBUG:?:? - Fetching notifications..
+2022-05-19 06:48:19,530 DEBUG:?:? - Fetching notifications..
+2022-05-19 07:48:19,614 DEBUG:?:? - Fetching notifications..
+2022-05-19 10:04:06,459 DEBUG:?:? - Fetching notifications..
+2022-05-19 11:13:14,651 DEBUG:?:? - Fetching notifications..
+2022-05-19 12:29:58,098 DEBUG:?:? - Fetching notifications..
+2022-05-19 17:38:45,016 DEBUG:?:? - Fetching notifications..
+2022-05-20 14:03:58,074 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-05-20 14:03:58,952 DEBUG:?:? - Starting to listen
+2022-05-20 14:03:59,370 DEBUG:?:? - Could not auto detect proxy settings
+2022-05-20 14:03:59,375 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-05-20 14:03:59,383 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-20 14:03:59,384 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653048239372\installClientInfo.dat
+2022-05-20 14:03:59,384 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653048239372\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-20 14:03:59,398 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-20 14:03:59,411 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-20 14:03:59,413 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-20 14:03:59,414 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2022-05-20 14:03:59,416 DEBUG:?:? - Reset proxy to direct connect
+2022-05-20 14:03:59,419 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653048239417\installClientInfo.dat
+2022-05-20 14:03:59,419 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653048239417\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-20 14:03:59,421 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-20 14:03:59,426 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-20 14:03:59,427 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-20 14:04:00,503 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-20 14:04:00,504 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-20 14:04:02,147 DEBUG:?:? - Fetching notifications..
+2022-05-20 14:04:02,236 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-05-20 14:04:02,237 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-05-20 14:04:03,018 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-20 14:04:03,018 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-20 14:04:03,387 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-20 14:04:03,387 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-20 14:04:03,813 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-20 14:04:03,814 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-20 14:04:04,728 DEBUG:?:? - Fetching notifications..
+2022-05-20 15:35:11,652 DEBUG:?:? - Fetching notifications..
+2022-05-20 17:57:28,795 DEBUG:?:? - Fetching notifications..
+2022-05-20 18:57:28,821 DEBUG:?:? - Fetching notifications..
+2022-05-20 19:57:28,939 DEBUG:?:? - Fetching notifications..
+2022-05-20 20:58:36,449 DEBUG:?:? - Fetching notifications..
+2022-05-20 21:58:36,607 DEBUG:?:? - Fetching notifications..
+2022-05-21 00:05:50,923 DEBUG:?:? - Fetching notifications..
+2022-05-21 01:05:51,030 DEBUG:?:? - Fetching notifications..
+2022-05-21 02:06:05,107 DEBUG:?:? - Fetching notifications..
+2022-05-21 09:50:49,359 DEBUG:?:? - Fetching notifications..
+2022-05-21 10:50:49,469 DEBUG:?:? - Fetching notifications..
+2022-05-21 11:50:49,574 DEBUG:?:? - Fetching notifications..
+2022-05-21 12:50:49,718 DEBUG:?:? - Fetching notifications..
+2022-05-21 13:50:49,912 DEBUG:?:? - Fetching notifications..
+2022-05-21 15:06:00,339 DEBUG:?:? - Fetching notifications..
+2022-05-21 18:12:33,583 DEBUG:?:? - Fetching notifications..
+2022-05-21 22:40:03,610 DEBUG:?:? - Fetching notifications..
+2022-05-21 23:57:04,580 DEBUG:?:? - Fetching notifications..
+2022-05-22 00:57:04,699 DEBUG:?:? - Fetching notifications..
+2022-05-22 10:46:37,494 DEBUG:?:? - Fetching notifications..
+2022-05-22 13:35:58,742 DEBUG:?:? - Fetching notifications..
+2022-05-22 14:35:58,861 DEBUG:?:? - Fetching notifications..
+2022-05-22 15:35:58,971 DEBUG:?:? - Fetching notifications..
+2022-05-22 17:25:54,855 DEBUG:?:? - Fetching notifications..
+2022-05-22 17:28:32,567 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-05-22 17:28:34,323 DEBUG:?:? - Starting to listen
+2022-05-22 17:28:34,952 DEBUG:?:? - Could not auto detect proxy settings
+2022-05-22 17:28:34,958 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-05-22 17:28:34,968 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-22 17:28:34,968 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653233314953\installClientInfo.dat
+2022-05-22 17:28:34,969 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653233314953\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-22 17:28:34,991 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-22 17:28:35,025 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-22 17:28:35,028 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-22 17:28:35,044 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2022-05-22 17:28:35,048 DEBUG:?:? - Reset proxy to direct connect
+2022-05-22 17:28:35,050 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653233315048\installClientInfo.dat
+2022-05-22 17:28:35,050 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653233315048\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-22 17:28:35,052 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-22 17:28:35,056 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-22 17:28:35,061 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-22 17:28:36,021 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-22 17:28:36,022 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-22 17:28:37,518 DEBUG:?:? - Fetching notifications..
+2022-05-22 17:28:37,537 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-05-22 17:28:37,538 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-05-22 17:28:37,884 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-22 17:28:37,885 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-22 17:28:38,319 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-22 17:28:38,319 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-22 17:28:39,098 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-22 17:28:39,098 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-22 17:28:40,803 DEBUG:?:? - Fetching notifications..
+2022-05-22 18:28:40,818 DEBUG:?:? - Fetching notifications..
+2022-05-22 19:41:42,378 DEBUG:?:? - Fetching notifications..
+2022-05-22 21:11:34,188 DEBUG:?:? - Fetching notifications..
+2022-05-22 22:16:26,924 DEBUG:?:? - Fetching notifications..
+2022-05-22 22:55:49,590 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-05-22 22:55:50,310 DEBUG:?:? - Starting to listen
+2022-05-22 22:55:51,174 DEBUG:?:? - Could not auto detect proxy settings
+2022-05-22 22:55:51,178 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-05-22 22:55:51,187 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-22 22:55:51,188 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653252951175\installClientInfo.dat
+2022-05-22 22:55:51,188 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653252951175\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-22 22:55:51,201 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-22 22:55:51,213 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-22 22:55:51,215 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-22 22:55:51,216 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2022-05-22 22:55:51,218 DEBUG:?:? - Reset proxy to direct connect
+2022-05-22 22:55:51,220 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653252951218\installClientInfo.dat
+2022-05-22 22:55:51,220 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653252951218\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-22 22:55:51,222 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-22 22:55:51,223 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-22 22:55:51,226 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-22 22:55:52,214 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-22 22:55:52,214 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-22 22:55:54,200 DEBUG:?:? - Fetching notifications..
+2022-05-22 22:55:54,247 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-05-22 22:55:54,249 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-05-22 22:55:55,584 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-22 22:55:55,585 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-22 22:55:55,971 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-22 22:55:55,972 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-22 22:55:56,221 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-22 22:55:56,222 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-22 22:55:57,290 DEBUG:?:? - Fetching notifications..
+2022-05-22 23:59:44,997 DEBUG:?:? - Fetching notifications..
+2022-05-23 00:59:45,077 DEBUG:?:? - Fetching notifications..
+2022-05-23 01:59:45,151 DEBUG:?:? - Fetching notifications..
+2022-05-23 03:00:35,270 DEBUG:?:? - Fetching notifications..
+2022-05-23 04:00:35,292 DEBUG:?:? - Fetching notifications..
+2022-05-23 05:00:35,407 DEBUG:?:? - Fetching notifications..
+2022-05-23 05:22:43,420 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-05-23 05:22:43,841 DEBUG:?:? - Starting to listen
+2022-05-23 05:22:44,050 DEBUG:?:? - Could not auto detect proxy settings
+2022-05-23 05:22:44,053 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-05-23 05:22:44,061 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-23 05:22:44,061 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653276164051\installClientInfo.dat
+2022-05-23 05:22:44,061 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653276164051\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-23 05:22:44,072 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-23 05:22:44,082 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-23 05:22:44,084 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-23 05:22:44,084 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2022-05-23 05:22:44,086 DEBUG:?:? - Reset proxy to direct connect
+2022-05-23 05:22:44,087 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653276164086\installClientInfo.dat
+2022-05-23 05:22:44,088 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653276164086\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-23 05:22:44,089 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-23 05:22:44,090 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-23 05:22:44,091 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-23 05:22:45,150 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-23 05:22:45,151 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-23 05:22:45,696 DEBUG:?:? - Fetching notifications..
+2022-05-23 05:22:45,709 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-05-23 05:22:45,710 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-05-23 05:22:45,842 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-23 05:22:45,842 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-23 05:22:46,016 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-23 05:22:46,016 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-23 05:22:46,180 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-23 05:22:46,180 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-23 05:22:46,513 DEBUG:?:? - Fetching notifications..
+2022-05-23 07:23:49,221 DEBUG:?:? - Fetching notifications..
+2022-05-23 09:04:07,011 DEBUG:?:? - Fetching notifications..
+2022-05-23 10:04:07,041 DEBUG:?:? - Fetching notifications..
+2022-05-23 11:16:46,834 DEBUG:?:? - Fetching notifications..
+2022-05-23 12:16:46,910 DEBUG:?:? - Fetching notifications..
+2022-05-24 11:02:20,179 DEBUG:?:? - Fetching notifications..
+2022-05-24 12:34:04,891 DEBUG:?:? - Fetching notifications..
+2022-05-24 15:40:32,557 DEBUG:?:? - Fetching notifications..
+2022-05-24 19:52:07,895 DEBUG:?:? - Fetching notifications..
+2022-05-24 20:53:28,195 DEBUG:?:? - Fetching notifications..
+2022-05-24 22:06:00,488 DEBUG:?:? - Fetching notifications..
+2022-05-24 23:06:00,518 DEBUG:?:? - Fetching notifications..
+2022-05-25 00:06:00,581 DEBUG:?:? - Fetching notifications..
+2022-05-25 09:52:38,957 DEBUG:?:? - Fetching notifications..
+2022-05-25 10:52:39,012 DEBUG:?:? - Fetching notifications..
+2022-05-25 12:01:20,889 DEBUG:?:? - Fetching notifications..
+2022-05-25 14:10:14,212 DEBUG:?:? - Fetching notifications..
+2022-05-25 18:12:17,708 DEBUG:?:? - Fetching notifications..
+2022-05-25 19:12:17,738 DEBUG:?:? - Fetching notifications..
+2022-05-25 22:52:05,801 DEBUG:?:? - Fetching notifications..
+2022-05-25 23:52:05,922 DEBUG:?:? - Fetching notifications..
+2022-05-26 01:00:54,540 DEBUG:?:? - Fetching notifications..
+2022-05-26 10:30:56,882 DEBUG:?:? - Fetching notifications..
+2022-05-26 15:19:05,788 DEBUG:?:? - Fetching notifications..
+2022-05-26 16:19:05,891 DEBUG:?:? - Fetching notifications..
+2022-05-27 00:30:48,993 DEBUG:?:? - Fetching notifications..
+2022-05-27 01:30:49,040 DEBUG:?:? - Fetching notifications..
+2022-05-27 02:30:49,066 DEBUG:?:? - Fetching notifications..
+2022-05-27 03:42:23,683 DEBUG:?:? - Fetching notifications..
+2022-05-27 04:42:23,716 DEBUG:?:? - Fetching notifications..
+2022-05-27 05:42:23,774 DEBUG:?:? - Fetching notifications..
+2022-05-27 06:42:24,008 DEBUG:?:? - Fetching notifications..
+2022-05-27 07:42:24,210 DEBUG:?:? - Fetching notifications..
+2022-05-27 08:42:24,376 DEBUG:?:? - Fetching notifications..
+2022-05-27 09:30:57,539 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-05-27 09:30:58,105 DEBUG:?:? - Starting to listen
+2022-05-27 09:30:58,368 DEBUG:?:? - Could not auto detect proxy settings
+2022-05-27 09:30:58,371 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-05-27 09:30:58,380 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-27 09:30:58,380 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653636658369\installClientInfo.dat
+2022-05-27 09:30:58,381 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653636658369\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-27 09:30:58,394 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-27 09:30:58,405 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-27 09:30:58,407 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-27 09:30:58,407 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2022-05-27 09:30:58,409 DEBUG:?:? - Reset proxy to direct connect
+2022-05-27 09:30:58,411 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653636658410\installClientInfo.dat
+2022-05-27 09:30:58,412 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653636658410\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-27 09:30:58,413 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-27 09:30:58,414 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-27 09:30:58,415 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-27 09:30:59,477 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 09:30:59,478 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 09:31:00,238 DEBUG:?:? - Fetching notifications..
+2022-05-27 09:31:00,254 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-05-27 09:31:00,255 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-05-27 09:31:00,448 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 09:31:00,449 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 09:31:00,690 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 09:31:00,690 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 09:31:00,905 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 09:31:00,905 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 09:31:01,334 DEBUG:?:? - Fetching notifications..
+2022-05-27 10:11:26,203 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-05-27 10:11:26,660 DEBUG:?:? - Starting to listen
+2022-05-27 10:11:33,945 DEBUG:?:? - Could not auto detect proxy settings
+2022-05-27 10:11:33,947 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-05-27 10:11:33,954 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-27 10:11:33,954 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653639093945\installClientInfo.dat
+2022-05-27 10:11:33,954 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653639093945\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-27 10:11:33,964 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-27 10:11:34,783 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1757 bytes, elapsedTime: 0:0:0:0
+2022-05-27 10:11:34,783 INFO :?:? - Internet connection validated, can connect to internet.
+2022-05-27 10:11:34,784 DEBUG:?:? - Loading install client info from: C:\Users\20101\AppData\Local\Temp\1653639093945\installClientInfo.dat
+2022-05-27 10:11:35,035 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:11:35,036 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:11:35,548 DEBUG:?:? - Fetching notifications..
+2022-05-27 10:11:35,549 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-27 10:11:35,595 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-05-27 10:11:35,596 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-05-27 10:11:35,854 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:11:35,854 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:11:35,857 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:11:35,858 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:11:36,164 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:11:36,165 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:11:36,182 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:11:36,182 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:11:36,414 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:11:36,414 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:11:36,555 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:11:36,556 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:11:36,927 DEBUG:?:? - Fetching notifications..
+2022-05-27 10:11:36,928 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-27 10:11:37,100 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:11:37,100 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:11:37,260 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:11:37,261 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:11:37,446 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:11:37,446 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:13:39,144 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-05-27 10:13:39,549 DEBUG:?:? - Starting to listen
+2022-05-27 10:13:46,799 DEBUG:?:? - Could not auto detect proxy settings
+2022-05-27 10:13:46,801 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-05-27 10:13:46,808 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-27 10:13:46,809 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653639226800\installClientInfo.dat
+2022-05-27 10:13:46,809 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653639226800\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-27 10:13:46,819 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-27 10:13:47,367 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1757 bytes, elapsedTime: 0:0:0:0
+2022-05-27 10:13:47,368 INFO :?:? - Internet connection validated, can connect to internet.
+2022-05-27 10:13:47,368 DEBUG:?:? - Loading install client info from: C:\Users\20101\AppData\Local\Temp\1653639226800\installClientInfo.dat
+2022-05-27 10:13:47,882 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:13:47,882 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:13:48,280 DEBUG:?:? - Fetching notifications..
+2022-05-27 10:13:48,290 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-05-27 10:13:48,291 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-05-27 10:13:48,452 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:13:48,452 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:13:48,603 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:13:48,603 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:13:48,741 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:13:48,741 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:13:49,002 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-27 10:13:49,183 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:13:49,184 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:13:49,228 DEBUG:?:? - InterruptedException executing the command: [cmd, /c, net use E:]
+java.lang.InterruptedException
+	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)
+	at com.xilinx.installer.utils.b.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.FileUtilities.c(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord.setOrigImagePath(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord$JaxbAccessorM_getOrigImagePath_setOrigImagePath_java_lang_String.set(MethodAccessor_Ref.java:45)
+	at com.sun.xml.internal.bind.v2.runtime.reflect.TransducedAccessor$CompositeTransducedAccessorImpl.parse(TransducedAccessor.java:230)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:50)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.text(UnmarshallingContext.java:572)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.processText(SAXConnector.java:198)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.endElement(SAXConnector.java:161)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:243)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:214)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:157)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:162)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:171)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:189)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at p.f.f(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-27 10:13:49,231 ERROR:?:? - There was an error executing: [cmd, /c, net use E:]
+2022-05-27 10:13:49,276 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:13:49,277 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:14:09,451 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:14:09,451 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:43:14,514 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-05-27 10:43:14,911 DEBUG:?:? - Starting to listen
+2022-05-27 10:43:15,211 DEBUG:?:? - Could not auto detect proxy settings
+2022-05-27 10:43:15,217 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-05-27 10:43:15,225 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-27 10:43:15,225 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653640995215\installClientInfo.dat
+2022-05-27 10:43:15,225 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653640995215\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-27 10:43:15,238 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-27 10:43:15,249 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.b(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-27 10:43:15,251 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-27 10:43:15,252 DEBUG:?:? - Unknown host exception: Proxy host is null!
+2022-05-27 10:43:15,254 DEBUG:?:? - Reset proxy to direct connect
+2022-05-27 10:43:15,256 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653640995255\installClientInfo.dat
+2022-05-27 10:43:15,257 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653640995255\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-27 10:43:15,258 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-27 10:43:15,259 DEBUG:?:? - Checking error to find out what to do with it.
+k.e: UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+	at k.l.l(Unknown Source)
+	at k.l.c(Unknown Source)
+	at k.b.m(Unknown Source)
+	at k.b.a(Unknown Source)
+	at k.b.h(Unknown Source)
+	at com.xilinx.xic.R.run(Unknown Source)
+2022-05-27 10:43:15,260 ERROR:?:? - UnknownHostException/NoRouteToHostException: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-27 10:43:16,324 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:43:16,325 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:43:16,878 DEBUG:?:? - Fetching notifications..
+2022-05-27 10:43:16,887 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-05-27 10:43:16,888 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-05-27 10:43:17,027 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:43:17,028 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:43:17,186 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:43:17,186 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:43:17,322 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-27 10:43:17,322 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-27 10:43:17,577 DEBUG:?:? - Fetching notifications..
+2022-05-27 14:34:55,152 DEBUG:?:? - Fetching notifications..
+2022-05-27 15:34:55,279 DEBUG:?:? - Fetching notifications..
+2022-05-27 20:06:11,711 DEBUG:?:? - Fetching notifications..
+2022-05-27 23:34:03,669 DEBUG:?:? - Fetching notifications..
+2022-05-28 01:15:57,555 DEBUG:?:? - Fetching notifications..
+2022-05-28 02:15:57,634 DEBUG:?:? - Fetching notifications..
+2022-05-28 03:15:57,740 DEBUG:?:? - Fetching notifications..
+2022-05-28 04:10:17,142 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-05-28 04:10:17,623 DEBUG:?:? - Starting to listen
+2022-05-28 04:10:21,806 DEBUG:?:? - Could not auto detect proxy settings
+2022-05-28 04:10:21,811 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-05-28 04:10:21,822 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-28 04:10:21,823 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653703821807\installClientInfo.dat
+2022-05-28 04:10:21,823 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653703821807\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-28 04:10:21,847 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-28 04:10:22,531 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1757 bytes, elapsedTime: 0:0:0:0
+2022-05-28 04:10:22,532 INFO :?:? - Internet connection validated, can connect to internet.
+2022-05-28 04:10:22,532 DEBUG:?:? - Loading install client info from: C:\Users\20101\AppData\Local\Temp\1653703821807\installClientInfo.dat
+2022-05-28 04:10:25,999 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-28 04:10:26,000 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-28 04:10:27,130 DEBUG:?:? - Fetching notifications..
+2022-05-28 04:10:27,137 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-28 04:10:27,242 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-05-28 04:10:27,244 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-05-28 04:10:27,517 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-28 04:10:27,518 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-28 04:10:28,388 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-28 04:10:28,389 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-28 04:10:28,451 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-28 04:10:28,451 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-28 04:10:29,027 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-28 04:10:29,027 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-28 04:10:29,323 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-28 04:10:29,324 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-28 04:10:29,789 DEBUG:?:? - Fetching notifications..
+2022-05-28 04:10:29,790 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-28 04:10:29,992 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-28 04:10:29,993 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-28 04:10:30,249 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-28 04:10:30,249 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-28 04:10:50,579 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-28 04:10:50,580 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-28 17:32:49,881 DEBUG:?:? - Fetching notifications..
+2022-05-28 17:32:58,028 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-28 17:32:58,944 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-28 17:32:58,944 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-28 18:32:58,968 DEBUG:?:? - Fetching notifications..
+2022-05-28 18:33:07,014 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-28 18:33:07,399 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-28 18:33:07,399 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-28 23:23:53,475 DEBUG:?:? - Fetching notifications..
+2022-05-28 23:24:01,515 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-28 23:24:03,382 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-28 23:24:03,382 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-29 00:37:31,101 DEBUG:?:? - Fetching notifications..
+2022-05-29 00:37:39,179 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-29 00:37:39,752 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-29 00:37:39,753 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-29 02:15:33,506 DEBUG:?:? - Fetching notifications..
+2022-05-29 02:15:41,575 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-29 02:15:42,113 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-29 02:15:42,113 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-29 13:02:48,501 DEBUG:?:? - Fetching notifications..
+2022-05-29 13:02:56,586 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-29 13:02:58,647 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-29 13:02:58,647 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-29 14:43:42,801 DEBUG:?:? - Fetching notifications..
+2022-05-29 14:43:43,843 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-29 14:43:43,924 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 01:47:33,950 DEBUG:?:? - Fetching notifications..
+2022-05-30 01:47:35,007 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-30 01:47:35,906 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-30 01:47:35,907 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-30 12:38:29,427 DEBUG:?:? - Fetching notifications..
+2022-05-30 12:38:37,475 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-30 12:38:38,021 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-30 12:38:38,021 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-30 13:38:38,034 DEBUG:?:? - Fetching notifications..
+2022-05-30 13:38:46,106 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-30 13:38:46,481 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-30 13:38:46,482 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-30 14:04:42,052 DEBUG:?:? - data\dynamic_resource_bundle.properties, does not exist
+2022-05-30 14:04:43,089 DEBUG:?:? - Starting to listen
+2022-05-30 14:04:50,484 DEBUG:?:? - Could not auto detect proxy settings
+2022-05-30 14:04:50,487 DEBUG:?:? - XILINX_URL is set to  http://www.xilinx.com/direct/swhelp
+2022-05-30 14:04:50,495 DEBUG:?:? - Will download http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-30 14:04:50,495 DEBUG:?:? - Download to C:\Users\20101\AppData\Local\Temp\1653912290485\installClientInfo.dat
+2022-05-30 14:04:50,495 DEBUG:?:? - File not exists or incomplete file C:\Users\20101\AppData\Local\Temp\1653912290485\installClientInfo.dat,  deleting and starting download from scratch.
+2022-05-30 14:04:50,509 DEBUG:?:? - http download: http://www.xilinx.com/direct/swhelp/installClientInfo.dat
+2022-05-30 14:04:51,151 DEBUG:?:? - Successfully downloaded http://www.xilinx.com/direct/swhelp/installClientInfo.dat. Downloaded 1757 bytes, elapsedTime: 0:0:0:0
+2022-05-30 14:04:51,151 INFO :?:? - Internet connection validated, can connect to internet.
+2022-05-30 14:04:51,152 DEBUG:?:? - Loading install client info from: C:\Users\20101\AppData\Local\Temp\1653912290485\installClientInfo.dat
+2022-05-30 14:04:51,569 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-30 14:04:51,570 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-30 14:04:52,069 DEBUG:?:? - Fetching notifications..
+2022-05-30 14:04:52,081 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\DocNav
+2022-05-30 14:04:52,082 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\DocNav\data\instRecord.dat
+2022-05-30 14:04:52,298 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-30 14:04:52,299 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-30 14:04:52,491 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-30 14:04:52,492 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-30 14:04:52,680 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-30 14:04:52,680 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-30 14:04:53,037 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-30 14:04:53,263 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-30 14:04:53,263 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-30 14:04:53,327 DEBUG:?:? - InterruptedException executing the command: [cmd, /c, net use E:]
+java.lang.InterruptedException
+	at java.lang.ProcessImpl.waitFor(ProcessImpl.java:451)
+	at com.xilinx.installer.utils.b.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.s.a(Unknown Source)
+	at com.xilinx.installer.utils.FileUtilities.c(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord.setOrigImagePath(Unknown Source)
+	at com.xilinx.installer.data.postInst.InstallationRecord$JaxbAccessorM_getOrigImagePath_setOrigImagePath_java_lang_String.set(MethodAccessor_Ref.java:45)
+	at com.sun.xml.internal.bind.v2.runtime.reflect.TransducedAccessor$CompositeTransducedAccessorImpl.parse(TransducedAccessor.java:230)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.LeafPropertyLoader.text(LeafPropertyLoader.java:50)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.text(UnmarshallingContext.java:572)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.processText(SAXConnector.java:198)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.endElement(SAXConnector.java:161)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.endElement(AbstractSAXParser.java:609)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1782)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:243)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:214)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:157)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:162)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:171)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:189)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at com.xilinx.installer.data.postInst.a.a(Unknown Source)
+	at p.f.f(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-05-30 14:04:53,331 ERROR:?:? - There was an error executing: [cmd, /c, net use E:]
+2022-05-30 14:04:53,388 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-30 14:04:53,388 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-30 14:05:13,890 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-30 14:05:13,890 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-05-30 19:23:14,854 DEBUG:?:? - Fetching notifications..
+2022-05-30 19:23:22,900 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-05-30 19:23:23,533 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-05-30 19:23:23,533 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-01 12:15:19,258 DEBUG:?:? - Fetching notifications..
+2022-06-01 12:15:20,292 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-01 12:15:20,342 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-02 07:35:07,754 DEBUG:?:? - Fetching notifications..
+2022-06-02 07:35:35,910 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-02 07:35:57,041 ERROR:?:? - Connection timed out: connect
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-02 13:01:53,659 DEBUG:?:? - Fetching notifications..
+2022-06-02 13:01:56,826 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-02 13:02:08,038 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-02 13:02:08,038 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-02 14:42:06,853 DEBUG:?:? - Fetching notifications..
+2022-06-02 14:42:07,905 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-02 14:42:08,414 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-02 14:42:08,415 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-02 16:19:19,665 DEBUG:?:? - Fetching notifications..
+2022-06-02 16:19:20,729 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-02 16:19:21,312 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-02 16:19:21,313 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-02 17:19:21,359 DEBUG:?:? - Fetching notifications..
+2022-06-02 17:19:22,477 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-02 17:19:23,341 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-02 17:19:23,342 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-02 18:21:28,272 DEBUG:?:? - Fetching notifications..
+2022-06-02 18:21:29,322 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-02 18:21:30,160 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-02 18:21:30,161 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-03 00:46:06,434 DEBUG:?:? - Fetching notifications..
+2022-06-03 00:46:07,475 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-03 00:46:08,232 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-03 00:46:08,232 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-03 10:13:44,333 DEBUG:?:? - Fetching notifications..
+2022-06-03 10:13:45,458 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-03 10:13:45,974 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-03 10:13:45,975 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-03 13:59:32,193 DEBUG:?:? - Fetching notifications..
+2022-06-03 13:59:33,290 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-03 13:59:33,762 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-03 13:59:33,763 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-03 15:15:56,145 DEBUG:?:? - Fetching notifications..
+2022-06-03 15:16:04,200 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-03 15:16:15,475 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-03 16:22:19,161 DEBUG:?:? - Fetching notifications..
+2022-06-03 16:22:20,219 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-03 16:22:20,579 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-03 16:22:20,579 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-04 00:47:00,738 DEBUG:?:? - Fetching notifications..
+2022-06-04 00:47:01,855 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-04 00:47:02,342 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-04 00:47:02,343 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-04 02:07:07,451 DEBUG:?:? - Fetching notifications..
+2022-06-04 02:07:08,529 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-04 02:07:09,003 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-04 02:07:09,003 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-04 03:07:09,004 DEBUG:?:? - Fetching notifications..
+2022-06-04 03:07:10,133 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-04 03:07:10,901 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-04 03:07:10,902 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-04 06:00:59,467 DEBUG:?:? - Fetching notifications..
+2022-06-04 06:01:00,645 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-04 06:01:01,337 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-04 06:01:01,337 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-04 10:54:32,877 DEBUG:?:? - Fetching notifications..
+2022-06-04 10:54:33,918 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-04 10:54:34,848 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-04 10:54:34,848 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-04 14:45:21,816 DEBUG:?:? - Fetching notifications..
+2022-06-04 14:45:22,860 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-04 14:45:23,394 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-04 14:45:23,394 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-04 17:33:02,363 DEBUG:?:? - Fetching notifications..
+2022-06-04 17:33:03,461 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-04 17:33:03,855 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-04 17:33:03,855 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-04 18:46:18,690 DEBUG:?:? - Fetching notifications..
+2022-06-04 18:46:19,803 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-04 18:46:20,462 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-04 18:46:20,462 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-04 19:46:20,459 DEBUG:?:? - Fetching notifications..
+2022-06-04 19:46:21,492 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-04 19:46:22,080 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-04 19:46:22,080 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-04 20:46:22,091 DEBUG:?:? - Fetching notifications..
+2022-06-04 20:46:50,214 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-04 20:46:50,791 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-04 20:46:50,791 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-04 21:46:50,793 DEBUG:?:? - Fetching notifications..
+2022-06-04 21:46:51,892 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-04 21:46:52,377 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-04 21:46:52,377 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-04 23:01:06,552 DEBUG:?:? - Fetching notifications..
+2022-06-04 23:01:07,667 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-04 23:01:08,209 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-04 23:01:08,209 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-05 04:27:33,204 DEBUG:?:? - Fetching notifications..
+2022-06-05 04:27:34,268 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-05 04:27:35,270 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-05 04:27:35,270 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-05 05:27:35,295 DEBUG:?:? - Fetching notifications..
+2022-06-05 05:27:36,516 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-05 05:27:37,825 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-05 05:27:37,825 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-05 11:41:36,780 DEBUG:?:? - Fetching notifications..
+2022-06-05 11:41:37,831 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-05 11:41:37,911 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-05 20:56:46,383 DEBUG:?:? - Fetching notifications..
+2022-06-05 20:56:47,424 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-05 20:56:47,453 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-05 22:20:54,407 DEBUG:?:? - Fetching notifications..
+2022-06-05 22:20:55,455 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-05 22:20:55,518 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-06 10:22:20,207 DEBUG:?:? - Fetching notifications..
+2022-06-06 10:22:21,211 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-06 10:22:21,223 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-06 11:32:25,941 DEBUG:?:? - Fetching notifications..
+2022-06-06 11:32:26,958 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-06 11:32:26,986 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-06 12:32:26,995 DEBUG:?:? - Fetching notifications..
+2022-06-06 12:32:28,001 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-06 12:32:28,041 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-06 18:43:48,463 DEBUG:?:? - Fetching notifications..
+2022-06-06 18:43:49,469 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-06 18:43:49,501 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-06 20:00:31,056 DEBUG:?:? - Fetching notifications..
+2022-06-06 20:00:32,080 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-06 20:00:32,157 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-06 21:51:48,180 DEBUG:?:? - Fetching notifications..
+2022-06-06 21:51:49,199 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-06 21:51:49,262 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-07 00:28:03,762 DEBUG:?:? - Fetching notifications..
+2022-06-07 00:28:04,815 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-07 00:28:04,842 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-07 02:44:02,003 DEBUG:?:? - Fetching notifications..
+2022-06-07 02:44:03,055 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-07 02:44:03,082 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-07 07:22:58,725 DEBUG:?:? - Fetching notifications..
+2022-06-07 07:22:59,738 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-07 07:22:59,750 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-07 09:06:12,327 DEBUG:?:? - Fetching notifications..
+2022-06-07 09:06:13,338 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-07 09:06:13,364 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-07 11:06:12,548 DEBUG:?:? - Fetching notifications..
+2022-06-07 11:06:13,574 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-07 11:06:13,596 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-09 07:05:55,132 DEBUG:?:? - Fetching notifications..
+2022-06-09 07:06:03,216 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-09 07:06:03,796 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-09 07:06:03,797 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-09 08:10:42,838 DEBUG:?:? - Fetching notifications..
+2022-06-09 08:10:50,944 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-09 08:10:51,813 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-09 08:10:51,814 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-09 14:01:33,000 DEBUG:?:? - Fetching notifications..
+2022-06-09 14:01:41,147 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-09 14:01:41,692 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-09 14:01:41,694 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-09 14:48:39,792 DEBUG:?:? - Read: ARE YOU UP?
+2022-06-09 14:48:39,812 DEBUG:?:? - Read: REFRESH
+2022-06-09 14:48:39,911 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-09 14:48:39,912 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-09 14:48:40,277 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-09 14:48:40,277 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-09 14:48:40,459 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-09 14:48:40,460 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-09 14:48:40,610 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-09 14:48:40,610 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-09 14:48:40,969 DEBUG:?:? - Fetching notifications..
+2022-06-09 14:48:49,007 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-09 14:48:49,569 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-09 14:48:49,569 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-09 14:48:49,784 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-09 14:48:49,784 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-09 14:49:10,096 DEBUG:?:? - Get the installation record file from E:\VHDLL\.xinstall\Vivado_2017.4
+2022-06-09 14:49:10,097 DEBUG:?:? - Not a fresh installation. Upgrade installation. installation data file found, E:\VHDLL\.xinstall\Vivado_2017.4\data\instRecord.dat
+2022-06-09 14:53:07,994 DEBUG:?:? - Read: ARE YOU UP?
+2022-06-09 14:53:08,000 DEBUG:?:? - Read: REFRESH
+2022-06-09 14:53:09,086 DEBUG:?:? - Fetching notifications..
+2022-06-09 14:53:17,115 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-09 14:54:06,123 DEBUG:?:? - Read: ARE YOU UP?
+2022-06-09 14:54:06,129 DEBUG:?:? - Read: REFRESH
+2022-06-09 14:54:07,211 DEBUG:?:? - Fetching notifications..
+2022-06-09 14:54:15,245 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-09 18:15:39,242 DEBUG:?:? - Fetching notifications..
+2022-06-09 18:15:47,385 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-09 19:31:22,274 DEBUG:?:? - Fetching notifications..
+2022-06-09 19:31:30,394 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-10 02:10:06,272 DEBUG:?:? - Fetching notifications..
+2022-06-10 02:10:14,342 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-10 13:52:40,239 DEBUG:?:? - Fetching notifications..
+2022-06-10 13:52:48,275 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-10 14:58:04,657 DEBUG:?:? - Fetching notifications..
+2022-06-10 14:58:12,762 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-11 09:24:34,571 DEBUG:?:? - Fetching notifications..
+2022-06-11 09:24:42,639 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-11 11:19:56,265 DEBUG:?:? - Fetching notifications..
+2022-06-11 11:20:04,411 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-12 02:18:04,916 DEBUG:?:? - Fetching notifications..
+2022-06-12 02:18:12,967 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-12 03:53:07,706 DEBUG:?:? - Fetching notifications..
+2022-06-12 03:53:15,739 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-12 14:53:09,818 DEBUG:?:? - Fetching notifications..
+2022-06-12 14:53:17,916 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-12 16:59:24,077 DEBUG:?:? - Fetching notifications..
+2022-06-12 16:59:32,137 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-12 22:31:35,832 DEBUG:?:? - Fetching notifications..
+2022-06-12 22:31:43,960 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-12 23:50:04,580 DEBUG:?:? - Fetching notifications..
+2022-06-12 23:50:12,625 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-13 00:55:31,971 DEBUG:?:? - Fetching notifications..
+2022-06-13 00:55:40,018 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-13 02:35:46,737 DEBUG:?:? - Fetching notifications..
+2022-06-13 02:35:54,782 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-13 05:22:36,268 DEBUG:?:? - Fetching notifications..
+2022-06-13 05:22:44,329 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-13 12:04:04,311 DEBUG:?:? - Fetching notifications..
+2022-06-13 12:04:12,363 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-13 13:09:11,102 DEBUG:?:? - Fetching notifications..
+2022-06-13 13:09:19,146 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-13 14:13:50,494 DEBUG:?:? - Fetching notifications..
+2022-06-13 14:13:58,533 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-13 15:27:14,988 DEBUG:?:? - Fetching notifications..
+2022-06-13 15:27:23,025 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-13 17:32:24,805 DEBUG:?:? - Fetching notifications..
+2022-06-13 17:32:32,860 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-13 22:40:51,918 DEBUG:?:? - Fetching notifications..
+2022-06-13 22:40:53,004 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-13 22:40:53,096 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-13 23:40:53,168 DEBUG:?:? - Fetching notifications..
+2022-06-13 23:41:01,297 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-14 02:45:56,653 DEBUG:?:? - Fetching notifications..
+2022-06-14 02:46:04,717 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-14 03:54:43,964 DEBUG:?:? - Fetching notifications..
+2022-06-14 03:54:52,025 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-14 05:21:19,768 DEBUG:?:? - Fetching notifications..
+2022-06-14 05:21:27,813 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-14 09:17:45,011 DEBUG:?:? - Fetching notifications..
+2022-06-14 09:17:46,028 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-14 09:17:46,065 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-14 10:17:46,081 DEBUG:?:? - Fetching notifications..
+2022-06-14 10:17:47,088 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-14 10:17:47,115 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-14 11:17:47,125 DEBUG:?:? - Fetching notifications..
+2022-06-14 11:17:48,140 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-14 11:17:48,157 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-15 10:51:59,125 DEBUG:?:? - Fetching notifications..
+2022-06-15 10:52:00,179 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-15 10:52:00,247 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-15 12:46:48,551 DEBUG:?:? - Fetching notifications..
+2022-06-15 12:46:49,609 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-15 12:46:49,632 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-15 13:49:25,645 DEBUG:?:? - Fetching notifications..
+2022-06-15 13:49:33,686 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-15 14:49:35,274 DEBUG:?:? - Fetching notifications..
+2022-06-15 14:49:43,303 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-15 16:23:54,794 DEBUG:?:? - Fetching notifications..
+2022-06-15 16:24:02,856 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-15 17:24:34,018 DEBUG:?:? - Fetching notifications..
+2022-06-15 17:24:42,069 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-15 19:15:22,653 DEBUG:?:? - Fetching notifications..
+2022-06-15 19:15:30,697 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-15 20:30:47,128 DEBUG:?:? - Fetching notifications..
+2022-06-15 20:30:55,157 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-15 21:58:34,216 DEBUG:?:? - Fetching notifications..
+2022-06-15 21:58:42,277 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-15 23:17:37,259 DEBUG:?:? - Fetching notifications..
+2022-06-15 23:17:45,285 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-16 00:17:46,414 DEBUG:?:? - Fetching notifications..
+2022-06-16 00:17:54,456 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-16 01:17:55,076 DEBUG:?:? - Fetching notifications..
+2022-06-16 01:18:03,120 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-16 02:18:03,970 DEBUG:?:? - Fetching notifications..
+2022-06-16 02:18:04,989 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-16 02:18:05,053 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-16 03:44:13,813 DEBUG:?:? - Fetching notifications..
+2022-06-16 03:44:21,863 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-16 05:15:18,536 DEBUG:?:? - Fetching notifications..
+2022-06-16 05:15:26,603 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-16 10:33:47,639 DEBUG:?:? - Fetching notifications..
+2022-06-16 10:33:48,693 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml
+2022-06-16 10:33:48,755 ERROR:?:? - www.xilinx.com
+java.net.UnknownHostException: www.xilinx.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at q.a.a(Unknown Source)
+	at q.a.d(Unknown Source)
+	at q.a.g(Unknown Source)
+	at q.a$a.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+2022-06-16 19:50:45,996 DEBUG:?:? - Fetching notifications..
+2022-06-16 19:50:54,051 DEBUG:?:? - Notification URL: http://www.xilinx.com/direct/swhelp/notifications.xml

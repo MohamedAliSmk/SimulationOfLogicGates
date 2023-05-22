@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<preferences autoStart="true" interval="Hourly" notificationTypes="INFO_NOTIFICATION_E NEW_SW_NOTIFICATION_E ALERT_NOTIFICATION_E UPDATE_NOTIFICATION_E">
+    <lastCheckedForNotification>2022-06-16T19:51:03.483+02:00</lastCheckedForNotification>
+</preferences>

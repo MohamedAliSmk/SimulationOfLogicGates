@@ -1,0 +1,2 @@
+C:\Users\20101\anaconda3\envs\NLPtoSQL\lib\site-packages\paramiko\transport.py:219: CryptographyDeprecationWarning: Blowfish has been deprecated
+  "class": algorithms.Blowfish,

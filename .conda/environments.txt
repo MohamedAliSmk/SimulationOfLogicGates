@@ -1,0 +1,4 @@
+C:\Users\20101\anaconda3\envs\FinanceProject
+C:\Users\20101\anaconda3\envs\NLPtoSQL
+C:\Users\20101\anaconda3
+C:\Users\20101\anaconda3\envs\ImgTollKit

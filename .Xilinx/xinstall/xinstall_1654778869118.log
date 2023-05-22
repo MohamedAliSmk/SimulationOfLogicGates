@@ -1,0 +1,300 @@
+2022-06-09 14:48:29,060 DEBUG: com.xilinx.installer.api.e:? - Log file location: C:\Users\20101\.Xilinx\xinstall\xinstall_1654778869118.log
+2022-06-09 14:48:29,692 DEBUG: com.xilinx.installer.api.e:? - Memory usage -- Used memory: 5470 MB. Total memory: 7103 MB
+Recent cpu usage for system: 0%
+2022-06-09 14:48:29,878 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:DocNav key:DocNav_MODULE
+2022-06-09 14:48:29,883 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:DocNav key:DocNav_MODULE
+2022-06-09 14:48:29,889 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:DocNav key:DocNav_MODULE
+2022-06-09 14:48:29,891 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:DocNav key:DocNav_MODULE
+2022-06-09 14:48:29,892 DEBUG: com.xilinx.installer.data.postInst.InstallationRecord:? - Module already installed name:DocNav key:DocNav_MODULE
+2022-06-09 14:48:30,147 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.summary.UninstallerSummaryPanel, refKey: UninstallSummaryPanel
+2022-06-09 14:48:30,215 DEBUG: com.xilinx.installer.gui.p:? - Class to load: com.xilinx.installer.gui.panel.progress.UninstallProgressPanel, refKey: UninstallProgressPanel
+2022-06-09 14:48:37,018 DEBUG: o.j:? - Initiating uninstallation process.
+2022-06-09 14:48:37,023 DEBUG: o.j:? - Found E:\VHDLL\.xinstall\Vivado_2017.4. Not deleting E:\VHDLL\.xinstall
+2022-06-09 14:48:37,051 DEBUG: o.j:? - Delete shortcuts...
+2022-06-09 14:48:37,053 DEBUG: m.c:? - Deleted shortcut: C:\Users\Public\Desktop\DocNav.lnk
+2022-06-09 14:48:37,055 DEBUG: m.c:? - Deleted shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Xilinx Design Tools\DocNav\DocNav.lnk
+2022-06-09 14:48:37,056 DEBUG: m.c:? - Unable to remove shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Xilinx Design Tools\DocNav
+2022-06-09 14:48:37,057 DEBUG: m.c:? - Deleted shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Xilinx Design Tools\DocNav\Uninstall DocNav.lnk
+2022-06-09 14:48:37,057 DEBUG: m.c:? - Deleted shortcut: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Xilinx Design Tools\DocNav
+2022-06-09 14:48:37,060 DEBUG: com.xilinx.installer.utils.n:? - r:/scratch/builds/HEAD/continuous/2017_07_12_1930218/src/products/installer/cxx-src/common/RegistryManager.cxx:648 - Deleted Uninstall registry entry successfully: Xilinx_DocNav_2017.4#0
+2022-06-09 14:48:37,060 DEBUG: o.k:? - Cleaning up registry entries
+2022-06-09 14:48:37,061 DEBUG: l.c:? - Deleting REG ENTRIES associated with modules...
+2022-06-09 14:48:37,061 DEBUG: o.j:? - Cleaning up registry entries - SUCCESS
+2022-06-09 14:48:37,061 DEBUG: o.p:? - Removing files...
+2022-06-09 14:48:37,062 DEBUG: o.p:? - Deleting directory E:\VHDLL\DocNav\resources\hubs\sw_manuals
+2022-06-09 14:48:37,231 DEBUG: o.p:? - Deleting directory E:\VHDLL\DocNav\resources\hubs\mig
+2022-06-09 14:48:37,258 DEBUG: o.p:? - Deleting directory E:\VHDLL\DocNav\resources\hubs\fpgas
+2022-06-09 14:48:37,268 DEBUG: o.p:? - Deleting directory E:\VHDLL\DocNav\resources\hubs\embedded
+2022-06-09 14:48:37,355 DEBUG: o.p:? - Deleting directory E:\VHDLL\DocNav\resources\hubs\boards_and_kits
+2022-06-09 14:48:37,613 DEBUG: o.p:? - Deleting directory E:\VHDLL\DocNav\resources\hubs
+2022-06-09 14:48:37,614 DEBUG: o.p:? - Deleting directory E:\VHDLL\DocNav\resources\docTrayIcons
+2022-06-09 14:48:37,706 DEBUG: o.p:? - Deleting directory E:\VHDLL\DocNav\resources\checklists
+2022-06-09 14:48:37,708 DEBUG: o.p:? - Deleting directory E:\VHDLL\DocNav\resources\assets
+2022-06-09 14:48:37,757 DEBUG: o.p:? - Deleting directory E:\VHDLL\DocNav\resources
+2022-06-09 14:48:37,773 DEBUG: o.p:? - Deleting directory E:\VHDLL\DocNav\imageformats
+2022-06-09 14:48:37,782 DEBUG: o.p:? - Deleting directory E:\VHDLL\DocNav
+2022-06-09 14:48:37,793 DEBUG: o.p:? - Deleting directory E:\VHDLL\.xinstall\DocNav\tps\win64\jre
+2022-06-09 14:48:37,798 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\awt.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\awt.dll
+2022-06-09 14:48:37,801 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll
+2022-06-09 14:48:37,808 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll
+2022-06-09 14:48:37,813 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.dll
+2022-06-09 14:48:37,814 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.exe. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.exe
+2022-06-09 14:48:37,827 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll
+2022-06-09 14:48:37,831 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\management.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\management.dll
+2022-06-09 14:48:37,833 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll
+2022-06-09 14:48:37,835 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\net.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\net.dll
+2022-06-09 14:48:37,836 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\nio.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\nio.dll
+2022-06-09 14:48:37,844 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll
+2022-06-09 14:48:37,845 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server
+2022-06-09 14:48:37,846 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll
+2022-06-09 14:48:37,848 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll
+2022-06-09 14:48:37,850 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\verify.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\verify.dll
+2022-06-09 14:48:37,852 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\zip.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\zip.dll
+2022-06-09 14:48:37,853 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin
+2022-06-09 14:48:37,871 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,872 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,874 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,875 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,876 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,877 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,878 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext
+2022-06-09 14:48:37,890 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jce.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jce.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,893 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,900 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\resources.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\resources.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,900 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\rt.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\rt.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,906 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib
+2022-06-09 14:48:37,909 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre. E:\VHDLL\.xinstall\DocNav\tps\win64\jre
+2022-06-09 14:48:37,910 DEBUG: o.p:? - Deleting directory E:\VHDLL\.xinstall\DocNav\tps\win64
+2022-06-09 14:48:37,931 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\awt.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\awt.dll
+2022-06-09 14:48:37,933 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll
+2022-06-09 14:48:37,934 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll
+2022-06-09 14:48:37,935 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.dll
+2022-06-09 14:48:37,936 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.exe. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.exe
+2022-06-09 14:48:37,938 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll
+2022-06-09 14:48:37,939 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\management.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\management.dll
+2022-06-09 14:48:37,940 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll
+2022-06-09 14:48:37,941 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\net.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\net.dll
+2022-06-09 14:48:37,942 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\nio.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\nio.dll
+2022-06-09 14:48:37,943 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll
+2022-06-09 14:48:37,944 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server
+2022-06-09 14:48:37,945 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll
+2022-06-09 14:48:37,946 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll
+2022-06-09 14:48:37,947 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\verify.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\verify.dll
+2022-06-09 14:48:37,948 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\zip.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\zip.dll
+2022-06-09 14:48:37,948 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin
+2022-06-09 14:48:37,949 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,950 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,951 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,952 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,952 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,953 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,954 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext
+2022-06-09 14:48:37,955 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jce.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jce.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,956 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,957 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\resources.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\resources.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,957 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\rt.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\rt.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,958 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib
+2022-06-09 14:48:37,958 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre. E:\VHDLL\.xinstall\DocNav\tps\win64\jre
+2022-06-09 14:48:37,961 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64. E:\VHDLL\.xinstall\DocNav\tps\win64
+2022-06-09 14:48:37,961 DEBUG: o.p:? - Deleting directory E:\VHDLL\.xinstall\DocNav\tps
+2022-06-09 14:48:37,962 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\awt.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\awt.dll
+2022-06-09 14:48:37,963 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll
+2022-06-09 14:48:37,964 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll
+2022-06-09 14:48:37,965 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.dll
+2022-06-09 14:48:37,966 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.exe. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.exe
+2022-06-09 14:48:37,967 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll
+2022-06-09 14:48:37,969 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\management.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\management.dll
+2022-06-09 14:48:37,970 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll
+2022-06-09 14:48:37,971 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\net.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\net.dll
+2022-06-09 14:48:37,972 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\nio.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\nio.dll
+2022-06-09 14:48:37,973 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll
+2022-06-09 14:48:37,973 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server
+2022-06-09 14:48:37,974 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll
+2022-06-09 14:48:37,975 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll
+2022-06-09 14:48:37,976 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\verify.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\verify.dll
+2022-06-09 14:48:37,977 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\zip.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\zip.dll
+2022-06-09 14:48:37,978 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin
+2022-06-09 14:48:37,979 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,979 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,980 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,980 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,981 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,981 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,982 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext
+2022-06-09 14:48:37,983 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jce.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jce.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,983 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,984 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\resources.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\resources.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,985 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\rt.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\rt.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:37,985 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib
+2022-06-09 14:48:37,985 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre. E:\VHDLL\.xinstall\DocNav\tps\win64\jre
+2022-06-09 14:48:37,987 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64. E:\VHDLL\.xinstall\DocNav\tps\win64
+2022-06-09 14:48:37,987 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps. E:\VHDLL\.xinstall\DocNav\tps
+2022-06-09 14:48:37,988 DEBUG: o.p:? - Deleting directory E:\VHDLL\.xinstall\DocNav\scripts
+2022-06-09 14:48:37,991 DEBUG: o.p:? - Deleting directory E:\VHDLL\.xinstall\DocNav\lib\win64.o
+2022-06-09 14:48:38,008 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_filesystem.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_filesystem.dll
+2022-06-09 14:48:38,010 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_regex.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_regex.dll
+2022-06-09 14:48:38,011 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_system.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_system.dll
+2022-06-09 14:48:38,014 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libInst_7z.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libInst_7z.dll
+2022-06-09 14:48:38,014 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libInst_Client7z.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libInst_Client7z.dll
+2022-06-09 14:48:38,015 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\librdi_install.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\librdi_install.dll
+2022-06-09 14:48:38,019 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o. E:\VHDLL\.xinstall\DocNav\lib\win64.o
+2022-06-09 14:48:38,019 DEBUG: o.p:? - Deleting directory E:\VHDLL\.xinstall\DocNav\lib\classes
+2022-06-09 14:48:38,020 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\commons-cli-1.2.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\commons-cli-1.2.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,021 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\commons-codec-1.6.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\commons-codec-1.6.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,022 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\commons-logging-1.1.1.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\commons-logging-1.1.1.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,022 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\httpclient-4.2.5.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\httpclient-4.2.5.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,023 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\httpcore-4.2.4.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\httpcore-4.2.4.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,023 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\json-simple-1.1.1.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\json-simple-1.1.1.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,023 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\log4j-1.2.15.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\log4j-1.2.15.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,024 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\xinstaller.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\xinstaller.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,024 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\zip4j_1.3.2.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\zip4j_1.3.2.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,025 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes. E:\VHDLL\.xinstall\DocNav\lib\classes
+2022-06-09 14:48:38,025 DEBUG: o.p:? - Deleting directory E:\VHDLL\.xinstall\DocNav\lib
+2022-06-09 14:48:38,026 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\commons-cli-1.2.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\commons-cli-1.2.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,027 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\commons-codec-1.6.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\commons-codec-1.6.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,027 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\commons-logging-1.1.1.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\commons-logging-1.1.1.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,028 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\httpclient-4.2.5.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\httpclient-4.2.5.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,029 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\httpcore-4.2.4.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\httpcore-4.2.4.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,033 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\json-simple-1.1.1.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\json-simple-1.1.1.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,034 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\log4j-1.2.15.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\log4j-1.2.15.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,035 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\xinstaller.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\xinstaller.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,035 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\zip4j_1.3.2.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\zip4j_1.3.2.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,036 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes. E:\VHDLL\.xinstall\DocNav\lib\classes
+2022-06-09 14:48:38,037 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_filesystem.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_filesystem.dll
+2022-06-09 14:48:38,038 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_regex.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_regex.dll
+2022-06-09 14:48:38,039 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_system.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_system.dll
+2022-06-09 14:48:38,040 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libInst_7z.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libInst_7z.dll
+2022-06-09 14:48:38,041 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libInst_Client7z.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libInst_Client7z.dll
+2022-06-09 14:48:38,042 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\librdi_install.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\librdi_install.dll
+2022-06-09 14:48:38,042 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o. E:\VHDLL\.xinstall\DocNav\lib\win64.o
+2022-06-09 14:48:38,042 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib. E:\VHDLL\.xinstall\DocNav\lib
+2022-06-09 14:48:38,042 DEBUG: o.p:? - Deleting directory E:\VHDLL\.xinstall\DocNav\data\images
+2022-06-09 14:48:38,058 DEBUG: o.p:? - Deleting directory E:\VHDLL\.xinstall\DocNav\data
+2022-06-09 14:48:38,063 DEBUG: o.p:? - Deleting directory E:\VHDLL\.xinstall\DocNav\bin\unwrapped\win64.o
+2022-06-09 14:48:38,081 DEBUG: o.p:? - Deleting directory E:\VHDLL\.xinstall\DocNav\bin\unwrapped
+2022-06-09 14:48:38,081 DEBUG: o.p:? - Deleting directory E:\VHDLL\.xinstall\DocNav\bin
+2022-06-09 14:48:38,112 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\bin. E:\VHDLL\.xinstall\DocNav\bin: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,112 DEBUG: o.p:? - Deleting directory E:\VHDLL\.xinstall\DocNav
+2022-06-09 14:48:38,129 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\bin. E:\VHDLL\.xinstall\DocNav\bin: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,129 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\commons-cli-1.2.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\commons-cli-1.2.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,130 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\commons-codec-1.6.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\commons-codec-1.6.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,130 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\commons-logging-1.1.1.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\commons-logging-1.1.1.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,131 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\httpclient-4.2.5.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\httpclient-4.2.5.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,131 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\httpcore-4.2.4.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\httpcore-4.2.4.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,131 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\json-simple-1.1.1.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\json-simple-1.1.1.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,132 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\log4j-1.2.15.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\log4j-1.2.15.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,132 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\xinstaller.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\xinstaller.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,133 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes\zip4j_1.3.2.jar. E:\VHDLL\.xinstall\DocNav\lib\classes\zip4j_1.3.2.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,134 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\classes. E:\VHDLL\.xinstall\DocNav\lib\classes
+2022-06-09 14:48:38,135 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_filesystem.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_filesystem.dll
+2022-06-09 14:48:38,136 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_regex.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_regex.dll
+2022-06-09 14:48:38,137 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_system.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libboost_system.dll
+2022-06-09 14:48:38,138 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libInst_7z.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libInst_7z.dll
+2022-06-09 14:48:38,139 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\libInst_Client7z.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\libInst_Client7z.dll
+2022-06-09 14:48:38,139 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o\librdi_install.dll. E:\VHDLL\.xinstall\DocNav\lib\win64.o\librdi_install.dll
+2022-06-09 14:48:38,140 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib\win64.o. E:\VHDLL\.xinstall\DocNav\lib\win64.o
+2022-06-09 14:48:38,140 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\lib. E:\VHDLL\.xinstall\DocNav\lib
+2022-06-09 14:48:38,142 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\awt.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\awt.dll
+2022-06-09 14:48:38,142 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\dcpr.dll
+2022-06-09 14:48:38,143 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\fontmanager.dll
+2022-06-09 14:48:38,144 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.dll
+2022-06-09 14:48:38,144 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.exe. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\java.exe
+2022-06-09 14:48:38,145 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\jpeg.dll
+2022-06-09 14:48:38,146 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\management.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\management.dll
+2022-06-09 14:48:38,147 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\msvcr100.dll
+2022-06-09 14:48:38,148 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\net.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\net.dll
+2022-06-09 14:48:38,149 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\nio.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\nio.dll
+2022-06-09 14:48:38,150 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server\jvm.dll
+2022-06-09 14:48:38,151 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\server
+2022-06-09 14:48:38,152 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\splashscreen.dll
+2022-06-09 14:48:38,153 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\t2k.dll
+2022-06-09 14:48:38,154 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\verify.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\verify.dll
+2022-06-09 14:48:38,155 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\zip.dll. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin\zip.dll
+2022-06-09 14:48:38,155 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\bin
+2022-06-09 14:48:38,156 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\cldrdata.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,157 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\dnsns.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,157 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\localedata.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,158 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunjce_provider.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,159 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunmscapi.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,159 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext\sunpkcs11.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,160 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\ext
+2022-06-09 14:48:38,160 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jce.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jce.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,162 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\jsse.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,162 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\resources.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\resources.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,162 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\rt.jar. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib\rt.jar: The process cannot access the file because it is being used by another process.
+
+2022-06-09 14:48:38,163 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib. E:\VHDLL\.xinstall\DocNav\tps\win64\jre\lib
+2022-06-09 14:48:38,163 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64\jre. E:\VHDLL\.xinstall\DocNav\tps\win64\jre
+2022-06-09 14:48:38,164 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps\win64. E:\VHDLL\.xinstall\DocNav\tps\win64
+2022-06-09 14:48:38,164 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav\tps. E:\VHDLL\.xinstall\DocNav\tps
+2022-06-09 14:48:38,168 DEBUG: o.q:? - Could not delete E:\VHDLL\.xinstall\DocNav. E:\VHDLL\.xinstall\DocNav
+2022-06-09 14:48:38,170 DEBUG: o.j:? - Found E:\VHDLL\.xinstall\Vivado_2017.4. Not deleting E:\VHDLL\.xinstall
+2022-06-09 14:48:38,175 DEBUG: com.xilinx.installer.utils.FileUtilities:? - Cleanup cmd: E:\VHDLL\.xinstall\DocNav\bin\\..\bin\_xInstallerCleanup.exe C:\Users\20101\AppData\Local\Temp\.xinstall_remove_file.bat

@@ -1,0 +1,6 @@
+[user]
+	name = mohamed ali
+	email = mohamedalisamk@gmail.com
+[filesystem "Oracle Corporation|1.8.0_271|1322451755"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 0 nanoseconds
